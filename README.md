@@ -13,7 +13,7 @@ Spring Boot Microservice Project
 ### services we are going to build : 
 + Product service : Creat and View products, acts as Product Catalog. [done]
 + Order Service : Can order Products. [done]
-+ Inventory Service : Can check if product is in stock or not
++ Inventory Service : Can check if product is in stock or not [done]
 + Notification Service : Can send notifications after order is placed
 + Order Service, Inventory Service and Notification Service are going to interact with each other.
 + Synchronous and Asynchronous Communication.

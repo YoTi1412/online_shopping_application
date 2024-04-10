@@ -2,6 +2,7 @@ package org.yoti.order_service.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.yoti.order_service.dto.OrderLineItemsDto;
 import org.yoti.order_service.dto.OrderRequest;
 import org.yoti.order_service.model.Order;
@@ -13,6 +14,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class OrderService {
 
     private final OrderRepository orderRepository;
